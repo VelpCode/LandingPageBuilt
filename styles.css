@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.logo {
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+ul {
+
+}
+
+.list {
+    gap: 400px;
+}
+
+.nav-links {
+}
+
+.nav-item {
+    margin: 30px;
+    color: #666666;
+}
+
+/*HERO*/
+
+
+.rows {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-left{
+    padding-top: 150px;
+}
+
+.doodle {
+    height: 550px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.row-right {
+    padding-top: 60px;
+}
+
+.hero-h1 {
+    font-size: 55px;
+    color: #333333;
+}
+
+p {
+    font-size: 22px;
+    color : #666666;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.work {
+    padding: 30px;
+}
+
+.arrow {
+    position: absolute;
+    height: 100px;
+    bottom: 230px;
+    left: 260px;
+    
+}
+
+.hero-btn {
+    font-size: 15px;
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    border-radius: 9px;
+    padding: 13px;
+    box-shadow: 0 7px 5px 0 rgba(0,0,0,0.2);
+}
+
+.villan-btn {
+    font-size: 15px;
+    background-color: #EBEBEB;
+    color: black;
+    font-weight: bold;
+    border-radius: 9px;
+    padding: 13px;
+    border-color: transparent;
+    box-shadow: 0 7px 4px 0 rgba(0,0,0,0.2);
+}
+
+.buttons {
+    margin-top: 30px;
+
+    
+}
+
+/*SERVICES*/
+
+.services {
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color:  #f9f9f9;
+    padding: 20px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.fly {
+    position: absolute;
+    height: 100px;
+    top: 850px;
+    right: 400px;
+}
+
+.s-heading {
+    font-size: 35px;
+    color: #222222;
+    text-align: center;
+}
+
+.fit {
+    height: 250px;
+}
+
+.rows {
+    display: flex;
+}
+
+.row-one {
+    flex-basis: 5%;
+    border: 2px solid #EBEBEB;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  
+  .box-one {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+.prod {
+    height: 250px;
+}
+
+.continer {
+    width: 100px;
+    height: 100px;
+    scroll-behavior: smooth;
+}
+
+.col-one {
+    flex-basis: 5%;
+    
+}
+
+
+
+.prod {
+    border-radius: 15%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+
+}
+
+.row-two {
+    flex-basis: 5%;
+    border: 2px solid #EBEBEB;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.box-two {
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #666666
+  }
+
+  section {
+    
+  }
+
+  .banner,
+.banner2 {
+    height: 900px;
+    border: 1px solid #EBEBEB;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add a drop shadow */
+}
+
+
+
+.image {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    transition: all 500ms ease;
+    transition: 300ms ease-in-out all;
+}
+
+button:hover {
+
+        transform: scale(0.9);
+        cursor: pointer;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-links ul li:hover {
+    transform: scale(1.4);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+
+
+  /*modal*/
+
+  *, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms linear;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .modal-image {
+    height: 200px;
+    margin-right: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 5%;
+
+  }
+  
+  .last {
+    margin: 0;
+  }
+
+  .modal-text {
+    text-align: center;
+    font-weight: bold;
+  }
+
+
+  
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EBEBEB;
+    text-align: center;
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .custom-contact-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+  
+  .custom-contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .custom-contact-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .custom-contact-description {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 40px;
+  }
+  
+  .custom-contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .custom-form-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .custom-label {
+    font-size: 18px;
+  }
+  
+  .custom-input-field,
+  .custom-textarea-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .custom-textarea-field {
+    height: 120px;
+  }
+  
+  .custom-submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-submit-button:hover {
+    background-color: #45a049;
+  }
+
+  #illu {
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    /* Styles for screens between 769px and 1200px */
+  }
+  
+  @media (min-width: 1201px) {
+    /* Styles for screens larger than 1200px */
+  }
